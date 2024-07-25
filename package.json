@@ -1,0 +1,32 @@
+{
+  "name": "my-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "my-build": "./bin/build.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^20.14.10",
+    "chokidar": "^3.6.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "commander": "^12.1.0",
+    "detect-port": "^1.6.1",
+    "fast-glob": "^3.3.2",
+    "html-webpack-plugin": "^5.6.0",
+    "inquirer": "^10.0.1",
+    "mini-css-extract-plugin": "^2.9.0",
+    "npmlog": "^7.0.1",
+    "semver": "^7.6.2",
+    "webpack": "^5.93.0",
+    "webpack-chain": "^6.5.1",
+    "webpack-dev-server": "^5.0.4"
+  },
+  "devDependencies": {}
+}
